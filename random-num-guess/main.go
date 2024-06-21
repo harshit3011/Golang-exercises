@@ -26,7 +26,7 @@ Wanna play?`
 	arg:=os.Args[1:]
 
 	if len(arg)!=1{
-		fmt.Println("Enter a valid number")
+		fmt.Println("pick a number")
 		return
 	}
 	guess,err:=strconv.Atoi(arg[0])
